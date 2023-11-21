@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> htmlforms </title>
+</head>
+
+<body>
+    <h2><u>Student details form</u></h2>
+    <form action="student.js">
+        <div><label for="studentName">Name:</label><input type="text" name="studentName"></div>
+        <br>
+        <div><input type="text" name="studentRoll"></div>
+        <br>
+        <div><label for="studentDOB">DOB:</label><input type="date" name="studentDOB"></div>
+        <br>
+        <div><label for="course">Courses</label>
+            <select name="courses" id="">
+                <option value="none" selected>None</option>
+                <option value="physics">Physics</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="maths">Maths</option>
+
+            </select>
+        </div>
+        <br>
+        <div>Course Fee<input type="number" name="studentCourseFee"></div>
+        <br>
+        <div>Course eligible?<input type="checkbox" name="studentCourseEligibity" checked></div>
+        <br>
+        <div>Email <input type="email" name="studentEmail"></div>
+        <br>
+        <div>Gender :
+            male <input type="radio" name="gender">
+            female <input type="radio" name="gender">
+            others <input type="radio" name="gender">
+        </div>
+        <br>
+        <div>student address :
+            <br>
+            <textarea name="student address" id="" cols="30" rows="5"></textarea>
+        </div>
+        <button type="submit">submit</button>
+        <button type="reset">submit</button>
+
+    </form>
+</body>
+
+</html>
