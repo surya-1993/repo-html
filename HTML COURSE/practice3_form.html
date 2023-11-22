@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tag</title>
+</head>
+
+<body>
+    <h1>student form</h1>
+    <div>
+        <form action="dummy.js">
+            <div>Name: <input type="text" name="student_name"></div>
+            <br>
+            <div>roll no: <input type="text" name="student_rollno"></div>
+            <br>
+            <div>Address: <textarea name="student_address" id="" cols="30" rows="6"></textarea></div>
+            <br>
+            <div>course: <select name="courses" id="">
+                    <option value="none" selected>None</option>
+                    <option value="physics">Physics</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="maths">Maths</option>
+
+                </select></div>
+            <br>
+            <div>gender: <input type="radio" name="student_gender" value="male">male
+                <input type="radio" name="student_gender" value="female">female
+                <input type="radio" name="student_gender" value="others">others
+            </div>
+            <br>
+            <div>Eligible for Scholarship? <input type="checkbox" name="scholarship_eligible" id=""></div>
+            <br>
+            <div><button type="submit" onclick="">Submit</button> &nbsp;&nbsp; <button type="reset">Reset</button></div>
+        </form>
+    </div>
+    <address>kalinga bidyapith<br>choudwar <br>cuttack</address>
+</body>
+
+</html>
